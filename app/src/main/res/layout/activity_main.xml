@@ -47,7 +47,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/fox" />
+                            app:srcCompat="@drawable/fox"
+                            android:contentDescription="@string/foxPIC" />
 
                     </LinearLayout>
 
@@ -62,7 +63,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Emu"
+                            android:text="@string/tvemu"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -71,7 +72,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/emu" />
+                            app:srcCompat="@drawable/emu"
+                            android:contentDescription="@string/emuPIC" />
 
                     </LinearLayout>
 
@@ -86,7 +88,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Emperor Penguin"
+                            android:text="@string/tvemperor_penguin"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -95,6 +97,7 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/emperorPIC"
                             app:srcCompat="@drawable/emperor_penguin" />
 
                     </LinearLayout>
@@ -110,7 +113,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Eletric Eel"
+                            android:text="@string/eletric_eel"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -119,7 +122,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/eletric_eel" />
+                            app:srcCompat="@drawable/eletric_eel"
+                            android:contentDescription="@string/eletriceelPIC" />
 
                     </LinearLayout>
 
@@ -129,29 +133,22 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:padding="16dp">
+                        <TextView
+                            android:id="@+id/tvElephant"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/tvelephant"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
 
-                            <TextView
-                                android:id="@+id/tvElephant"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="Elephant"
-                                android:textColor="#FFFFFF"
-                                android:textSize="30sp" />
-
-                            <ImageView
-                                android:id="@+id/ivElephant"
-                                android:layout_width="329dp"
-                                android:layout_height="589dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/elephant" />
-
-                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/ivElephant"
+                            android:layout_width="329dp"
+                            android:layout_height="589dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/elephantPIC"
+                            app:srcCompat="@drawable/elephant" />
 
                     </LinearLayout>
 
@@ -166,7 +163,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Flying Squirrel"
+                            android:text="@string/flying_squirrel"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -175,7 +172,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/flying_squirel" />
+                            app:srcCompat="@drawable/flying_squirel"
+                            android:contentDescription="@string/flyingsqurrielPIC" />
 
                     </LinearLayout>
 
@@ -190,7 +188,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="False Killer Whale"
+                            android:text="@string/tvfalse_killer_whale"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -199,7 +197,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/false_killer_whale" />
+                            app:srcCompat="@drawable/false_killer_whale"
+                            android:contentDescription="@string/whalePIC" />
 
                     </LinearLayout>
 
@@ -214,7 +213,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Eastern Gorilla"
+                            android:text="@string/tveastern_gorilla"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -223,7 +222,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/eastern_gorilla" />
+                            app:srcCompat="@drawable/eastern_gorilla"
+                            android:contentDescription="@string/gorillaPIC" />
 
                     </LinearLayout>
 
@@ -238,7 +238,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Flamingo"
+                            android:text="@string/tvflamingo"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -247,7 +247,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/flamingo" />
+                            app:srcCompat="@drawable/flamingo"
+                            android:contentDescription="@string/flamingoPIC" />
 
                     </LinearLayout>
 
@@ -262,7 +263,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Frilled Shark"
+                            android:text="@string/tvfrilled_shark"
                             android:textColor="#FFFFFF"
                             android:textSize="30sp" />
 
@@ -271,7 +272,8 @@
                             android:layout_width="329dp"
                             android:layout_height="589dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/frilled_shark" />
+                            app:srcCompat="@drawable/frilled_shark"
+                            android:contentDescription="@string/frilledsharkPIC" />
 
                     </LinearLayout>
 

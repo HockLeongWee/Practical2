@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">Practical2</string>
     <string name="fox">Fox</string>
+    <string name="tvemu">Emu</string>
+    <string name="tvemperor_penguin">Emperor Penguin</string>
+    <string name="eletric_eel">Eletric Eel</string>
+    <string name="tvelephant">Elephant</string>
+    <string name="flying_squirrel">Flying Squirrel</string>
+    <string name="tvfalse_killer_whale">False Killer Whale</string>
+    <string name="tveastern_gorilla">Eastern Gorilla</string>
+    <string name="tvflamingo">Flamingo</string>
+    <string name="tvfrilled_shark">Frilled Shark</string>
+
+    <string name="foxpic">foxPIC</string>
+    <string name="emuPIC">emuPIC</string>
+    <string name="emperorPIC">emperorPIC</string>
+    <string name="eletriceelPIC">eletriceelPIC</string>
+    <string name="elephantPIC">elephantPIC</string>
+    <string name="flyingsqurrielPIC">flyingsqurrielPIC</string>
+    <string name="whalePIC">whalePIC</string>
+    <string name="gorillaPIC">gorillaPIC</string>
+    <string name="flamingoPIC">flamingoPIC</string>
+    <string name="frilledsharkPIC">frilledsharkPIC</string>
+
+    <string name="title">title</string>
+    <string name="desc">Description</string>
+    <string name="MoreDesc">MoreDesc</string>
+    <string name="ExtraInfo">ExtraInfo</string>
+    <string name="URL">URL</string>
+    <string name="btnBack">Back To Home</string>
+    <string name="ClickHere">Visit here to find out more!</string>
+    <string name="hdfox">HDFOX</string>
 </resources>

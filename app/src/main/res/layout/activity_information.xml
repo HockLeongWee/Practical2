@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Fox"
+                android:text="@string/title"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp" />
 
@@ -30,6 +30,7 @@
                 android:id="@+id/iv"
                 android:layout_width="match_parent"
                 android:layout_height="222dp"
+                android:contentDescription="@string/hdfox"
                 app:srcCompat="@drawable/foxhd" />
 
             <TextView
@@ -39,7 +40,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="Foxes belong to the kingdom Animalia (Animals!) and are mammals. As part of the family Canidae they’re closely related to wolves, racoons, and domesticated dogs!"
+                android:text="@string/desc"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -50,7 +51,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="Wild foxes tend live for around 6-7 years, but some foxes have been known to be older than 13 in captivity. The wild fox hunts for the mouse and other small mammals and birds, but foxes appear to enjoy all species of insect."
+                android:text="@string/MoreDesc"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -61,7 +62,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="A fox is generally smaller than other members of the dog family like wolves, jackals and domestic dogs. Foxes can be a pest in the cities as foxes are often seen tearing into rubbish."
+                android:text="@string/ExtraInfo"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -72,7 +73,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="Visit here to find out more!"
+                android:text="@string/ClickHere"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -83,7 +84,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="https://a-z-animals.com/animals/fox/"
+                android:text="@string/URL"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -97,7 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Back To Home" />
+                    android:text="@string/btnBack" />
 
             </LinearLayout>
         </LinearLayout>
