@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6407B5"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvFox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/fox"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivFox"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/fox" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvEmu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Emu"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivEmu"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/emu" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvEmperor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Emperor Penguin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivEmperor"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/emperor_penguin" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvEletric"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Eletric Eel"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivEletric"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/eletric_eel" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/tvElephant"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Elephant"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
+
+                        <ImageView
+                            android:id="@+id/ivElephant"
+                            android:layout_width="329dp"
+                            android:layout_height="589dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/elephant" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvFlying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Flying Squirrel"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivFlying"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/flying_squirel" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvWhale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="False Killer Whale"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivWhale"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/false_killer_whale" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvGorilla"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Eastern Gorilla"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivGorilla"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/eastern_gorilla" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvFlamingo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Flamingo"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivFlamingo"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/flamingo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvFrilledShark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Frilled Shark"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/ivFrilledShark"
+                        android:layout_width="329dp"
+                        android:layout_height="589dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/frilled_shark" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
