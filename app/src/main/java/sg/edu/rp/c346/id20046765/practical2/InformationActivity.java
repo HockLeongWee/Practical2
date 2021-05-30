@@ -3,6 +3,7 @@ package sg.edu.rp.c346.id20046765.practical2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -51,6 +52,14 @@ public class InformationActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 onBackPressed();
+            }
+        });
+
+        tvURL.setOnClickListener(new View.OnClickListener(){ // Bring user to browser
+            @Override
+            public void onClick(View view){
+                Intent intentCall = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
+                startActivity(intentCall);
             }
         });
 
